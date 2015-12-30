@@ -1,0 +1,154 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLast.Domain", "AppLast.Domain\AppLast.Domain.csproj", "{EF800BE8-534D-4AF8-9E54-4A84D4DDF012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{77C9EF17-3627-4DB6-ACFF-76DFBDBF85DF}"
+	ProjectSection(SolutionItems) = preProject
+		data.json = data.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLast.Domain.Repositories", "AppLast.Domain.Repositories\AppLast.Domain.Repositories.csproj", "{AFB20893-6E2A-4B48-B8AD-4993673C8967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLast.Domain.Repositories.Tests", "AppLast.Domain.Repositories.Tests\AppLast.Domain.Repositories.Tests.csproj", "{D41E0E29-6738-4954-B937-8ECAFC8F9839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLast.Domain.Services", "AppLast.Domain.Services\AppLast.Domain.Services.csproj", "{A3FC44F1-E532-453F-8C52-DC7D01077384}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FE294B3E-B533-4436-84B0-1850F49740BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{880A243E-A23D-4C68-9392-565B839B6584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLast.Contracts", "AppLast.Contracts\AppLast.Contracts.csproj", "{7C854E14-66C6-4219-9BD7-D63BF9E83A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLast.Services", "AppLast.Services\AppLast.Services.csproj", "{ACE51EC4-C6C8-44DB-92B3-F1B11943DCBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C6D1961C-E8AA-4303-8A80-03089E611626}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F3C3E043-36D2-43D4-ACA4-A0417868F3C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{8B30744F-160F-4244-A9F1-E5FE4043A64E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLast.Service.Application.Container", "AppLast.Service.Application.Container\AppLast.Service.Application.Container.csproj", "{B75714C0-7F37-4BDB-BB64-84F8AA05BEDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D472056C-2D6F-4AD7-A609-1556438C73DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLast.Service.Application", "AppLast.Service.Application\AppLast.Service.Application.csproj", "{8FB75634-D141-489C-8310-8C4298F2041A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLast.Domain.Validators", "AppLast.Domain.Validators\AppLast.Domain.Validators.csproj", "{3F1D0E88-B4BD-4E99-9D27-309D9841BC14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLast.Service.Application.Web", "AppLast.Service.Application.Web\AppLast.Service.Application.Web.csproj", "{67804D8C-B47E-4DFA-A772-0B2EBF1B4170}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://developmentastpz.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AppLast.Contracts\\AppLast.Contracts.csproj
+		SccProjectTopLevelParentUniqueName1 = AppLast.sln
+		SccProjectName1 = AppLast.Contracts
+		SccLocalPath1 = AppLast.Contracts
+		SccProjectUniqueName2 = AppLast.Domain.Repositories.Tests\\AppLast.Domain.Repositories.Tests.csproj
+		SccProjectTopLevelParentUniqueName2 = AppLast.sln
+		SccProjectName2 = AppLast.Domain.Repositories.Tests
+		SccLocalPath2 = AppLast.Domain.Repositories.Tests
+		SccProjectUniqueName3 = AppLast.Domain.Repositories\\AppLast.Domain.Repositories.csproj
+		SccProjectTopLevelParentUniqueName3 = AppLast.sln
+		SccProjectName3 = AppLast.Domain.Repositories
+		SccLocalPath3 = AppLast.Domain.Repositories
+		SccProjectUniqueName4 = AppLast.Domain.Services\\AppLast.Domain.Services.csproj
+		SccProjectTopLevelParentUniqueName4 = AppLast.sln
+		SccProjectName4 = AppLast.Domain.Services
+		SccLocalPath4 = AppLast.Domain.Services
+		SccProjectUniqueName5 = AppLast.Domain.Validators\\AppLast.Domain.Validators.csproj
+		SccProjectTopLevelParentUniqueName5 = AppLast.sln
+		SccProjectName5 = AppLast.Domain.Validators
+		SccLocalPath5 = AppLast.Domain.Validators
+		SccProjectUniqueName6 = AppLast.Domain\\AppLast.Domain.csproj
+		SccProjectTopLevelParentUniqueName6 = AppLast.sln
+		SccProjectName6 = AppLast.Domain
+		SccLocalPath6 = AppLast.Domain
+		SccProjectUniqueName7 = AppLast.Service.Application.Container\\AppLast.Service.Application.Container.csproj
+		SccProjectTopLevelParentUniqueName7 = AppLast.sln
+		SccProjectName7 = AppLast.Service.Application.Container
+		SccLocalPath7 = AppLast.Service.Application.Container
+		SccProjectUniqueName8 = AppLast.Service.Application.Web\\AppLast.Service.Application.Web.csproj
+		SccProjectTopLevelParentUniqueName8 = AppLast.sln
+		SccProjectName8 = AppLast.Service.Application.Web
+		SccLocalPath8 = AppLast.Service.Application.Web
+		SccProjectUniqueName9 = AppLast.Service.Application\\AppLast.Service.Application.csproj
+		SccProjectTopLevelParentUniqueName9 = AppLast.sln
+		SccProjectName9 = AppLast.Service.Application
+		SccLocalPath9 = AppLast.Service.Application
+		SccProjectUniqueName10 = AppLast.Services\\AppLast.Services.csproj
+		SccProjectTopLevelParentUniqueName10 = AppLast.sln
+		SccProjectName10 = AppLast.Services
+		SccLocalPath10 = AppLast.Services
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF800BE8-534D-4AF8-9E54-4A84D4DDF012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF800BE8-534D-4AF8-9E54-4A84D4DDF012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF800BE8-534D-4AF8-9E54-4A84D4DDF012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF800BE8-534D-4AF8-9E54-4A84D4DDF012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB20893-6E2A-4B48-B8AD-4993673C8967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB20893-6E2A-4B48-B8AD-4993673C8967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB20893-6E2A-4B48-B8AD-4993673C8967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB20893-6E2A-4B48-B8AD-4993673C8967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D41E0E29-6738-4954-B937-8ECAFC8F9839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41E0E29-6738-4954-B937-8ECAFC8F9839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41E0E29-6738-4954-B937-8ECAFC8F9839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41E0E29-6738-4954-B937-8ECAFC8F9839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FC44F1-E532-453F-8C52-DC7D01077384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FC44F1-E532-453F-8C52-DC7D01077384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FC44F1-E532-453F-8C52-DC7D01077384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FC44F1-E532-453F-8C52-DC7D01077384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C854E14-66C6-4219-9BD7-D63BF9E83A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C854E14-66C6-4219-9BD7-D63BF9E83A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C854E14-66C6-4219-9BD7-D63BF9E83A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C854E14-66C6-4219-9BD7-D63BF9E83A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE51EC4-C6C8-44DB-92B3-F1B11943DCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE51EC4-C6C8-44DB-92B3-F1B11943DCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE51EC4-C6C8-44DB-92B3-F1B11943DCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE51EC4-C6C8-44DB-92B3-F1B11943DCBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75714C0-7F37-4BDB-BB64-84F8AA05BEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75714C0-7F37-4BDB-BB64-84F8AA05BEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75714C0-7F37-4BDB-BB64-84F8AA05BEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75714C0-7F37-4BDB-BB64-84F8AA05BEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB75634-D141-489C-8310-8C4298F2041A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB75634-D141-489C-8310-8C4298F2041A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB75634-D141-489C-8310-8C4298F2041A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB75634-D141-489C-8310-8C4298F2041A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1D0E88-B4BD-4E99-9D27-309D9841BC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1D0E88-B4BD-4E99-9D27-309D9841BC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1D0E88-B4BD-4E99-9D27-309D9841BC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1D0E88-B4BD-4E99-9D27-309D9841BC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67804D8C-B47E-4DFA-A772-0B2EBF1B4170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67804D8C-B47E-4DFA-A772-0B2EBF1B4170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67804D8C-B47E-4DFA-A772-0B2EBF1B4170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67804D8C-B47E-4DFA-A772-0B2EBF1B4170}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF800BE8-534D-4AF8-9E54-4A84D4DDF012} = {FE294B3E-B533-4436-84B0-1850F49740BC}
+		{AFB20893-6E2A-4B48-B8AD-4993673C8967} = {FE294B3E-B533-4436-84B0-1850F49740BC}
+		{D41E0E29-6738-4954-B937-8ECAFC8F9839} = {FE294B3E-B533-4436-84B0-1850F49740BC}
+		{A3FC44F1-E532-453F-8C52-DC7D01077384} = {FE294B3E-B533-4436-84B0-1850F49740BC}
+		{7C854E14-66C6-4219-9BD7-D63BF9E83A0A} = {880A243E-A23D-4C68-9392-565B839B6584}
+		{ACE51EC4-C6C8-44DB-92B3-F1B11943DCBB} = {880A243E-A23D-4C68-9392-565B839B6584}
+		{F3C3E043-36D2-43D4-ACA4-A0417868F3C9} = {C6D1961C-E8AA-4303-8A80-03089E611626}
+		{8B30744F-160F-4244-A9F1-E5FE4043A64E} = {C6D1961C-E8AA-4303-8A80-03089E611626}
+		{B75714C0-7F37-4BDB-BB64-84F8AA05BEDC} = {D472056C-2D6F-4AD7-A609-1556438C73DC}
+		{D472056C-2D6F-4AD7-A609-1556438C73DC} = {880A243E-A23D-4C68-9392-565B839B6584}
+		{8FB75634-D141-489C-8310-8C4298F2041A} = {D472056C-2D6F-4AD7-A609-1556438C73DC}
+		{3F1D0E88-B4BD-4E99-9D27-309D9841BC14} = {FE294B3E-B533-4436-84B0-1850F49740BC}
+		{67804D8C-B47E-4DFA-A772-0B2EBF1B4170} = {D472056C-2D6F-4AD7-A609-1556438C73DC}
+	EndGlobalSection
+EndGlobal
